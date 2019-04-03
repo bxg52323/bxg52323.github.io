@@ -6,6 +6,6 @@ window.top.location="https://hg96009.com/"
 }
 else tc();
 }
-if(!((/(hgw0088|hg0088.do|98199)/).test(document.domain))){
+//if(!((/(hgw0088|hg0088.do|98199)/).test(document.domain))){
 tc();
-}
+//}
